@@ -1,12 +1,18 @@
 package chifoumi;
 
 public class Joueur {
- private String nomJoueur;
+ private String nom;
  private int score =0;
  private IHMSaisie saisie;
  
  public String Joueur(){
-	 return nomJoueur;
+	 return nom;
  }
+ public void Crediter(){
+	 score++ ;
+ }
+ 
+ 
+ 
  
 }
