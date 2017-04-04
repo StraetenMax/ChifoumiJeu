@@ -5,7 +5,7 @@ public class Joueur {
  private int score =0;
  private IHMSaisie saisie;
  
- public Joueur(){
+ public String Joueur(){
 	 return nomJoueur;
  }
  
